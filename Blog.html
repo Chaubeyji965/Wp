@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #0c0101;
+        }
+
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .posts {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        article {
+            background: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        article h3 {
+            color: #35424a;
+        }
+
+        article a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #35424a;
+            text-decoration: none;
+            border: 1px solid #35424a;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        article a:hover {
+            background: #35424a;
+            color: #ffffff;
+        }
+
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to My Blog</h2>
+            <p>Your daily dose of inspiration and creativity.</p>
+        </section>
+
+        <section class="posts">
+            <article>
+                <h3>Post Title 1</h3>
+                <p>will virat kohli redeem himself in the next Challenge agianst Arch rivals Pakistan.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>Post Title 2</h3>
+                <p>MS dhoni to play IPL 2025.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>Post Title 3</h3>
+                <p>Novak Djokovic retired from injury in AO semi- Final against zverev.</p>
+                <a href="#">Read more</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
